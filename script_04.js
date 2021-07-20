@@ -9,7 +9,7 @@ function HouseBuilder(width, length, number_of_floor) {
 let firstHouse = new HouseBuilder(10, 15, 2);
 console.log(firstHouse);
 
-let secondHouse = new HouseBuilder(13, 12, 2);
+let secondHouse = new HouseBuilder(13, 11, 2);
 console.log(secondHouse);
 
 HouseBuilder.prototype.calcArea = function() {
