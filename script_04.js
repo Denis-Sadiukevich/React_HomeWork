@@ -15,8 +15,8 @@ console.log(secondHouse);
 HouseBuilder.prototype.calcArea = function() {
    return (this.width*this.length*this.number_of_floor);
 };
-let totalArea_first = firstHouse.calcArea();
-console.log(totalArea_first);
-let totalArea_second = secondHouse.calcArea();
-console.log(totalArea_second);
+firstHouse.totalArea = firstHouse.calcArea();
+console.log(firstHouse.totalArea);
+secondHouse.totalArea = secondHouse.calcArea();
+console.log(secondHouse.totalArea);
 
