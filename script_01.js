@@ -11,7 +11,7 @@ function cleanRoom(dirtyLevel) {
    
 };
 
-cleanRoom(13).then(
+cleanRoom(3).then(
    result => console.log(`Уборка проведена успешно за ${result} секунд`),
    error => console.log(`Уборка не проведена время более ${error} секунд`)
 );
